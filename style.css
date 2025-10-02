@@ -364,6 +364,18 @@ section{
     justify-content: space-around;
 }
 
+/*reflections*/
+#reflections{
+    position: relative;
+}
+
+.reflections-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 /*contact*/
 #contact{
     display: flex;
