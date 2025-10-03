@@ -4,3 +4,8 @@ function toggleMenu(){
     menu.classList.toggle("open")
     icon.classList.toggle("open")
 }
+
+function toggleDescription(id){
+    const element = document.getElementById(id);
+    element.classList.toggle("show");
+}
