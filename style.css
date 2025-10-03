@@ -311,6 +311,58 @@ section{
     margin: auto 0;
 }
 
+.languages{
+    margin-top: 10px;
+}
+
+.lang-line{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.languages span{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.lang-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.technologies{
+    margin-top: 10px;
+}
+
+.tech-line{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.technologies span{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #0026ff;
+}
+
+.tech-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.spacer{
+    height: 2.5rem;
+}
+
 /*projects*/
 #projects{
     position: relative;
